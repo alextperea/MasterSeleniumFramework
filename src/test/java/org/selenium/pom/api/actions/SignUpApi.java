@@ -18,7 +18,9 @@ public class SignUpApi {
     private void getAccount(){
         RestAssured.baseURI = "https://askomdch.com";
 
-        Response response = given().
+        int a = 0;
+        int b = 0;
+        int c = 0;
 
     }
 }
