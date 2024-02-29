@@ -1,8 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.579 s <<< FAILURE! - in TestSuite
-org.selenium.pom.tests.MyFirstTestCase.guestCheckoutUsingDirectBankTransfer  Time elapsed: 0 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Input must be set
-	at org.selenium.pom.tests.MyFirstTestCase.guestCheckoutUsingDirectBankTransfer(MyFirstTestCase.java:35)
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.242 s <<< FAILURE! - in TestSuite
+org.selenium.pom.tests.MyFirstTestCase.startDriver  Time elapsed: 0.144 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method startDriver but has not been marked @Optional or defined
+
 

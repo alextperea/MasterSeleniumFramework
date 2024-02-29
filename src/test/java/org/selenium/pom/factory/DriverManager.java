@@ -12,10 +12,8 @@ public class DriverManager {
     public WebDriver initializeDriver(String browser){
 
         WebDriver driver;
-        String localBrowser;
-        localBrowser = System.getProperty("browser", browser); // this is for maven command line
-        //localBrowser = browser; // this is for using with .xml file
-        switch (DriverType.valueOf(localBrowser)){
+        browser = System.getProperty("browser", browser); // this is for maven command line (mvn clean test -Dbrowser=FIREFOX) and also for xml file
+        switch (DriverType.valueOf(browser)){
             case CHROME:
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
@@ -34,4 +32,13 @@ public class DriverManager {
         driver.manage().window().maximize();
         return driver;
     }
+
+//    public WebDriver initializeDriver(){
+//
+//        WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
+//
+//        WebDriver driver = new FirefoxDriver();
+//        driver.manage().window().maximize();
+//        return driver;
+//    }
 }

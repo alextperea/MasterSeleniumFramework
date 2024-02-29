@@ -2,11 +2,13 @@ C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\p
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\HomePage.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\factory\DriverManager.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\CheckoutPage.java
+C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\api\actions\SignUpApi.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\base\BasePage.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\objects\BillingAddress.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\tests\MyFirstTestCase.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\objects\Product.java
-C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\constants\DriverType.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\CartPage.java
-C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\StorePage.java
 C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\utils\JacksonUtils.java
+C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\utils\PropertyUtils.java
+C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\constants\DriverType.java
+C:\Users\alext\IdeaProjects\MasterSeleniumFramework\src\test\java\org\selenium\pom\pages\StorePage.java

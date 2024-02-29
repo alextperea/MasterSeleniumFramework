@@ -17,7 +17,7 @@ public class BaseTest {
         return this.driver.get();
     }
 //--------------------------------------------------------
-    @Parameters("browser")
+    @Parameters("browser") // esto se usa solamente para correr tests desde el archivo de testng.xml
     @BeforeClass
     public void startDriver(String browser){
     setDriver(new DriverManager().initializeDriver(browser));
